@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+}
+
+
+.container{
+	width: 100%;
+	height: 45em;
+	background-color: grey;
+}
+
+.header{
+	text-align: center;
+}
+
+.header img{
+	width: 7em;
+}
+
+.headerlinks{
+	margin-top: 0.5em;
+}
+
+.headerlinks a{
+	text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    padding: 0 18px;
+}
+
+.middle{
+	text-align: center;
+    margin-top: 4em;
+}
+
+.middle p{
+	font-family: cursive;
+    font-size: 1.2em;
+}
+
+.middle input{
+	padding: 0.5em 1.5em;
+    margin-top: 1em;
+    background-color: cadetblue;
+    color: white;
+    border: 0px;
+}
+
+.bottom{
+	display: inline-flex;
+	margin-top: 4em;
+	width: 100%;
+}
+
+.bottomleft,.bottommiddle,.bottomright{
+	width: 35.5%;
+	padding: 0px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bottomleft h3,.bottommiddle h3 ,.bottomright h3{
+	color: black;
+}
+
+.bottomleft p,.bottommiddle p ,.bottomright p{
+	color: white;
+}
+
+@media all and (max-width: 786px){
+	.header img{
+	width: 5em;
+}
+.headerlinks a{
+    padding: 0 15px;
+}
+}
+
+@media all and (max-width:650px)
+{
+	.header{
+		text-align: initial;
+	}
+	.header img{
+		width: 4em;
+    	margin: 1.5em 3.5em;
+	}
+	.headerlinks{
+	    display: inline-grid;
+  		margin: 1.5em 2em;
+   		float: right;
+	}
+	.headerlinks a{
+    	font-size: 0.9em;
+	}
+
+	.bottom{
+		display: inline-block;
+		margin-top: 3em;
+}
+	.bottomleft,.bottommiddle,.bottomright{
+		width: 100%;
+		padding: 0px 20px;
+	    box-sizing: border-box;
+	    text-align: center;
+}
+	.middle{
+   	 	margin-top: 2em;
+}
+	.middle p{
+   	 	font-size: 0.9em;
+}
+}
+
+
